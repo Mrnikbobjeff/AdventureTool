@@ -1,15 +1,14 @@
-﻿using AdventureTool.Repositories.Database;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using AdventureTool.Base.Models.Interfaces;
+using AdventureTool.Repositories.Database;
 using Realms;
 
-namespace AdventureTool.Base.Models.Player
+namespace AdventureTool.Base.Models.Attributes
 {
-    class Talent : RealmObject, IEntity, IDisability
+    class Rank : RealmObject, IEntity 
     {
         public string Id { get; set; }
         public string Provider { get; set; }
@@ -17,9 +16,6 @@ namespace AdventureTool.Base.Models.Player
         public DateTimeOffset LastModified { get; set; }
         public string Name { get; set; }
         public string Description { get; set; }
-        public int AddModifier { get; set; }
-        public int MultModifier { get; set; }
-        public int Taw { get; set; }
-        public IList<Eigenschaft> ProbenEigenschaften { get; }
+        public int RankLevel { get; set; }
     }
 }

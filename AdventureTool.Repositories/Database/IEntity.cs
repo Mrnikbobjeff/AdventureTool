@@ -11,5 +11,9 @@ namespace AdventureTool.Repositories.Database
         bool Deleted { get; set; }
 
         DateTimeOffset LastModified { get; set; }
+        string Name { get; set; }
+
+        string Description { get; set; }
+
     }
 }

@@ -14,7 +14,9 @@ namespace AdventureTool.Base.Models.Player
         public string Provider { get; set; }
         public bool Deleted { get; set; }
         public DateTimeOffset LastModified { get; set; }
-        public int SozialStatus { get; set; }
+
+        public string Name { get; set; }
+        public string Description { get; set; }        public int SozialStatus { get; set; }
         public int MagieResistenz { get; set; }
         public IList<Eigenschaft> Eigenschaften { get; set; }
     }
