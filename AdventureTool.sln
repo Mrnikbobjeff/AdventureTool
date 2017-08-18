@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdventureTool", "AdventureTool\AdventureTool.csproj", "{DFAB649B-7E5C-4728-8795-AED42E064D4F}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "AdventureTool.Common", "AdventureTool.Common\AdventureTool.Common.shproj", "{92AC0F3D-8AFF-4F17-A90E-C8CF306AABDA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdventureTool.Base", "AdventureTool.Base\AdventureTool.Base.csproj", "{67F9D3A8-F71E-4428-913F-C37AE82CDB24}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdventureTool.Tests", "AdventureTool.Tests\AdventureTool.Tests.csproj", "{DCCBE07B-5A7D-4C80-B11D-52DE371AE8CB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdventureTool.Plugin", "AdventureTool.Plugin\AdventureTool.Plugin.csproj", "{40815F95-998A-4B71-BA04-9F719670C8C9}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		AdventureTool.Common\AdventureTool.Common.projitems*{92ac0f3d-8aff-4f17-a90e-c8cf306aabda}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DFAB649B-7E5C-4728-8795-AED42E064D4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFAB649B-7E5C-4728-8795-AED42E064D4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFAB649B-7E5C-4728-8795-AED42E064D4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFAB649B-7E5C-4728-8795-AED42E064D4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67F9D3A8-F71E-4428-913F-C37AE82CDB24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67F9D3A8-F71E-4428-913F-C37AE82CDB24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67F9D3A8-F71E-4428-913F-C37AE82CDB24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67F9D3A8-F71E-4428-913F-C37AE82CDB24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCCBE07B-5A7D-4C80-B11D-52DE371AE8CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCCBE07B-5A7D-4C80-B11D-52DE371AE8CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCCBE07B-5A7D-4C80-B11D-52DE371AE8CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCCBE07B-5A7D-4C80-B11D-52DE371AE8CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40815F95-998A-4B71-BA04-9F719670C8C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40815F95-998A-4B71-BA04-9F719670C8C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40815F95-998A-4B71-BA04-9F719670C8C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40815F95-998A-4B71-BA04-9F719670C8C9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
