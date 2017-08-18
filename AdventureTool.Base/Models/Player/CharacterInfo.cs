@@ -18,11 +18,13 @@ namespace AdventureTool.Base.Models.Player
         public string Provider { get; set; }
         public bool Deleted { get; set; }
         public DateTimeOffset LastModified { get; set; }
-        public Gender Gender { get; set; }
+        public string Name { get; set; }
+        public string Description { get; set; }
+        public string Gender { get; set; }
         public Length Length { get; set; }
-        public Color HairColor { get; set; }
+        public uint HairColor { get; set; }
 
-        public Color EyeColor { get; set; }
+        public uint EyeColor { get; set; }
         public Weight Weight { get; set; }
 
         public string Stand { get; set; }

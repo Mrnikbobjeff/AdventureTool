@@ -8,7 +8,7 @@ using Realms;
 
 namespace AdventureTool.Base.Models.Attributes
 {
-    class Rank : RealmObject, IEntity 
+    public class Rank : RealmObject, IEntity 
     {
         public string Id { get; set; }
         public string Provider { get; set; }

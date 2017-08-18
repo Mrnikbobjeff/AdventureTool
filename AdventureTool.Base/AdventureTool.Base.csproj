@@ -35,12 +35,15 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Models\Attributes\Gender.cs" />
-    <Compile Include="Models\Attributes\IAvailablitiy.cs" />
     <Compile Include="Models\Attributes\Rank.cs" />
-    <Compile Include="Models\Attributes\ILengthMeasurement.cs" />
-    <Compile Include="Models\Attributes\Length.cs" />
+    <Compile Include="Models\Attributes\Units\Date.cs" />
+    <Compile Include="Models\Attributes\Gender.cs" />
+    <Compile Include="Models\Attributes\Interfaces\IAvailablitiy.cs" />
+    <Compile Include="Models\Attributes\Interfaces\ILengthMeasurement.cs" />
+    <Compile Include="Models\Attributes\Interfaces\IWeighable.cs" />
+    <Compile Include="Models\Attributes\Units\Length.cs" />
     <Compile Include="Models\Attributes\PriceEntity.cs" />
+    <Compile Include="Models\Attributes\Units\Weight.cs" />
     <Compile Include="Models\Enums\Availability.cs" />
     <Compile Include="Models\Interfaces\ICharacter.cs" />
     <Compile Include="Models\Interfaces\IDisability.cs" />
@@ -49,7 +52,6 @@
     <Compile Include="Models\Interfaces\IWeaponTalent.cs" />
     <Compile Include="Models\Objects\Item.cs" />
     <Compile Include="Models\Player\CharacterInfo.cs" />
-    <Compile Include="Models\Player\Culture.cs" />
     <Compile Include="Models\Player\Eigenschaft.cs" />
     <Compile Include="Models\Player\InventoryItem.cs" />
     <Compile Include="Models\Player\Nachteil.cs" />

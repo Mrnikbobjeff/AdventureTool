@@ -18,6 +18,6 @@ namespace AdventureTool.Base.Models.Player
         public string Name { get; set; }
         public string Description { get; set; }        public int SozialStatus { get; set; }
         public int MagieResistenz { get; set; }
-        public IList<Eigenschaft> Eigenschaften { get; set; }
+        public IList<Eigenschaft> Eigenschaften { get; }
     }
 }

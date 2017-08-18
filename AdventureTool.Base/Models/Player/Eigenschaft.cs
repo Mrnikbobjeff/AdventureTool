@@ -10,7 +10,7 @@ using Realms;
 
 namespace AdventureTool.Base.Models.Player
 {
-    class Eigenschaft : RealmObject, IEntity, IRankable
+    public class Eigenschaft : RealmObject, IEntity, IRankable
     {
         public string Id { get; set; }
         public string Provider { get; set; }
