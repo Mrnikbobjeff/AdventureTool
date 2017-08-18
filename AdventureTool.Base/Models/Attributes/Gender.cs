@@ -6,8 +6,10 @@ using System.Threading.Tasks;
 
 namespace AdventureTool.Base.Models.Attributes
 {
-    public interface IAvailablitiy
+    enum Gender
     {
-        int Availability { get; }
+        Undefined,
+        Male,
+        Female
     }
 }

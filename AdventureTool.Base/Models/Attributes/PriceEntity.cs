@@ -6,16 +6,13 @@ using System.Threading.Tasks;
 using AdventureTool.Repositories.Database;
 using Realms;
 
-namespace AdventureTool.Base.Models.Player
+namespace AdventureTool.Base.Models.Attributes
 {
-    public class PlayerEntity : RealmObject, IEntity
+    class PriceEntity : RealmObject, IEntity
     {
-        public string Id { get; set; } = Guid.NewGuid().ToString();
+        public string Id { get; set; }
         public string Provider { get; set; }
         public bool Deleted { get; set; }
         public DateTimeOffset LastModified { get; set; }
-        public int SozialStatus { get; set; }
-        public int MagieResistenz { get; set; }
-        public IList<Eigenschaft> Eigenschaften { get; set; }
     }
 }
