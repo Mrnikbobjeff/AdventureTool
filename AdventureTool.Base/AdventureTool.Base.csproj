@@ -35,11 +35,18 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Models\Attributes\IAvailablitiy.cs" />
+    <Compile Include="Models\Enums\Availability.cs" />
+    <Compile Include="Models\Interfaces\ICharacter.cs" />
+    <Compile Include="Models\Interfaces\IItem.cs" />
+    <Compile Include="Models\Interfaces\IWeaponTalent.cs" />
     <Compile Include="Models\Objects\Item.cs" />
+    <Compile Include="Models\Player\CharacterInfo.cs" />
     <Compile Include="Models\Player\Eigenschaft.cs" />
     <Compile Include="Models\Player\InventoryItem.cs" />
     <Compile Include="Models\Player\Nachteil.cs" />
     <Compile Include="Models\Player\PlayerEntity.cs" />
+    <Compile Include="Models\Player\Race.cs" />
     <Compile Include="Models\Player\Sonderfertigkeit.cs" />
     <Compile Include="Models\Player\Talent.cs" />
     <Compile Include="Models\Player\Vorteil.cs" />
