@@ -36,9 +36,11 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Models\Attributes\IAvailablitiy.cs" />
+    <Compile Include="Models\Attributes\Rank.cs" />
     <Compile Include="Models\Enums\Availability.cs" />
     <Compile Include="Models\Interfaces\ICharacter.cs" />
     <Compile Include="Models\Interfaces\IItem.cs" />
+    <Compile Include="Models\Interfaces\IRankable.cs" />
     <Compile Include="Models\Interfaces\IWeaponTalent.cs" />
     <Compile Include="Models\Objects\Item.cs" />
     <Compile Include="Models\Player\CharacterInfo.cs" />
